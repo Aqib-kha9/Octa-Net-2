@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 4.5rem;
+}
+
+.sub-container{
+    width: 80vw;
+    border: 1px solid #d2d2dc;
+    padding: 2rem;
+}
+/* @media(min-width: 250px) {
+    .sub-container{
+        width: 92vw;
+        border: 1px solid #d2d2dc;
+        padding: 1rem;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+  } */
+.input-box{
+    display: flex;
+    gap: .7rem;
+}
+.input-box input{
+    width: 67vw;
+    padding: .9rem;
+    border: 1px solid #d2d2dc;
+}
+.parent{
+    justify-content: space-between;
+}
+
+.btn{
+    border-radius: 0px;
+}
+
